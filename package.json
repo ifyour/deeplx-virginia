@@ -1,0 +1,17 @@
+{
+  "name": "ampt-fastify",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Starter template for Fastify + Ampt.",
+  "main": "index.js",
+  "dependencies": {
+    "@ampt/sdk": "^1.0.0",
+    "fastify": "^4.23.2"
+  },
+  "ampt": {
+    "app": "ampt-fastify"
+  },
+  "files": [
+    "*"
+  ]
+}
