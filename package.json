@@ -4,15 +4,21 @@
   "version": "1.0.0",
   "description": "Starter template for Fastify + Ampt.",
   "main": "index.js",
-  "dependencies": {
-    "@ampt/sdk": "^1.0.0",
-    "fastify": "^4.23.2"
+  "scripts": {
+    "dev": "ampt"
   },
   "ampt": {
-    "app": "deeplx-virginia",
+    "app": "deeplx-ampt",
     "org": "hi673454"
   },
   "files": [
     "*"
-  ]
+  ],
+  "dependencies": {
+    "@ampt/sdk": "^1.0.0",
+    "fastify": "^4.23.2"
+  },
+  "devDependencies": {
+    "@ampt/cli": "^1.0.15"
+  }
 }
