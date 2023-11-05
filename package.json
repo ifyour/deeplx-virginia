@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "@ampt/sdk": "^1.0.0",
+    "@ifyour/deeplx": "^0.1.1",
     "fastify": "^4.23.2"
   },
   "devDependencies": {
